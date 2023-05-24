@@ -13,6 +13,9 @@ import java.time.Clock;
 import static co.com.udea.certificacion.userinterfaces.PaginaSabesCuantoDineroNecesitas.*;
 
 public class LlenarFormulario {
+    public LlenarFormulario() {
+        throw new IllegalStateException("Utility class");
+    }
 
     public static void complete(Actor actor, String monto, String plazo, String fechaNacimiento) {
         actor.attemptsTo(
@@ -117,11 +120,16 @@ public class LlenarFormulario {
         return nombreMes;
     }
 
+    /**
+     * @param segundos
+     */
     public static void esperarSegundos(int segundos) {
         try {
-            Thread.sleep(segundos * 1000);
+            Thread.sleep(Long(segundos)*1000);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            e.printStackTrace(); LOGGER.log(Level.WARN, "Interrupted!", e);
+            // Restore interrupted state...
+            Thread.currentThread().interrupt();
         }
     }
 }
