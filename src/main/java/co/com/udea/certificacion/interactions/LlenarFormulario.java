@@ -13,7 +13,7 @@ import java.time.Clock;
 import static co.com.udea.certificacion.userinterfaces.PaginaSabesCuantoDineroNecesitas.*;
 
 public class LlenarFormulario {
-    public LlenarFormulario() {
+    private LlenarFormulario() {
         throw new IllegalStateException("Utility class");
     }
 
@@ -127,7 +127,7 @@ public class LlenarFormulario {
         try {
             Thread.sleep(Long(segundos)*1000);
         } catch (InterruptedException e) {
-            e.printStackTrace(); LOGGER.log(Level.WARN, "Interrupted!", e);
+            LOGGER.log(Level.WARN, "Interrupted!", e);
             // Restore interrupted state...
             Thread.currentThread().interrupt();
         }

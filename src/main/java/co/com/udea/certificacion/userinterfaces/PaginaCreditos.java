@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class PaginaCreditos {
-    public PaginaCreditos() {
+    private PaginaCreditos() {
         throw new IllegalStateException("Utility class");
     }
 
