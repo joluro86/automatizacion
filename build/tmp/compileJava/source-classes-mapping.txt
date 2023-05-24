@@ -1,0 +1,22 @@
+co/com/udea/certificacion/userinterfaces/PaginaPrincipal.java
+ co.com.udea.certificacion.userinterfaces.PaginaPrincipal
+co/com/udea/certificacion/userinterfaces/PaginaCaracteristicas.java
+ co.com.udea.certificacion.userinterfaces.PaginaCaracteristicas
+co/com/udea/certificacion/tasks/SaberMas.java
+ co.com.udea.certificacion.tasks.SaberMas
+co/com/udea/certificacion/userinterfaces/PaginaCreditos.java
+ co.com.udea.certificacion.userinterfaces.PaginaCreditos
+co/com/udea/certificacion/tasks/Simular.java
+ co.com.udea.certificacion.tasks.Simular
+co/com/udea/certificacion/questions/ValidarCuota.java
+ co.com.udea.certificacion.questions.ValidarCuota
+co/com/udea/certificacion/userinterfaces/PaginaResultado.java
+ co.com.udea.certificacion.userinterfaces.PaginaResultado
+co/com/udea/certificacion/interactions/IdentificarCuota.java
+ co.com.udea.certificacion.interactions.IdentificarCuota
+co/com/udea/certificacion/userinterfaces/PaginaSabesCuantoDineroNecesitas.java
+ co.com.udea.certificacion.userinterfaces.PaginaSabesCuantoDineroNecesitas
+co/com/udea/certificacion/tasks/DiligenciarDatos.java
+ co.com.udea.certificacion.tasks.DiligenciarDatos
+co/com/udea/certificacion/interactions/LlenarFormulario.java
+ co.com.udea.certificacion.interactions.LlenarFormulario

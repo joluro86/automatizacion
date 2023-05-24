@@ -1,0 +1,4 @@
+co/com/udea/certificacion/runners/SimulacionCredito.java
+ co.com.udea.certificacion.runners.SimulacionCredito
+co/com/udea/certificacion/stepdefinitions/SimulacionCreditoStepDefinitions.java
+ co.com.udea.certificacion.stepdefinitions.SimulacionCreditoStepDefinitions
